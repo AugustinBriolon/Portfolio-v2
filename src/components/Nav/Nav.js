@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
-import Logo from "../../assets/logo/AB.svg"
+import Logo from "../../assets/logo/AB.png"
 
 export default function Nav() {
 
@@ -11,17 +11,17 @@ export default function Nav() {
   }
 
   return (
-    <nav className={`section ${showLinks ? "showNav" : "hidden" } navbar`}>
-      <div className="navLogo">
+    <nav className={`${showLinks ? "showNav" : "hidden"} navbar`}>
+      <div className="navBox">
         <a href="/">
           <img src={Logo} alt="Augustin Briolon Logo" />
         </a>
       </div>
       <ul className="navListLinks">
-        <li className="navItem">
+        <li className="navItem navBox">
           <a href="/" className='navLinks'>Projets</a>
         </li>
-        <li className="navItem">
+        <li className="navItem navBox">
           <a href="/" className='navLinks'>Contact</a>
         </li>
       </ul>
