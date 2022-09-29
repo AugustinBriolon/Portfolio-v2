@@ -17,7 +17,7 @@
   }
 
   div {
-    margin-left: clamp(20px,5vw,130px);
+    margin-left: clamp(20px, 5vw, 130px);
   }
 
   .navBox {
@@ -44,11 +44,17 @@
       max-height: 65px;
       width: auto;
     }
+
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
   }
 
   .navListLinks {
     display: flex;
-    margin-right: clamp(20px,5vw,130px);
+    margin-right: clamp(20px, 5vw, 130px);
 
     @include media-min(768px) {
       flex-direction: column;
@@ -62,14 +68,23 @@
       height: 100vh;
       padding: 2rem;
       visibility: hidden;
-      background: #fff;
+      background: #56ccf2; /* fallback for old browsers */
+      background: -webkit-linear-gradient(
+        to left,
+        #2f80ed,
+        #56ccf2
+      ); /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(
+        to left,
+        #2f80ed,
+        #56ccf2
+      ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
       transition: all 0.5s ease-out;
     }
 
     .navItem {
-
       @include media-min(768px) {
-        
         &::after {
           content: "";
           display: block;

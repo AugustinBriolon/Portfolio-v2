@@ -2,7 +2,7 @@
 h1{
   font-family: $fontRaleway;
   font-weight: 600;
-  font-size: clamp(2rem, 10vw, 10rem);
+  font-size: clamp(2rem, 13vw, 15rem);
 }
 
 h2{
@@ -26,6 +26,7 @@ h4{
 p{
   font-family: $fontRubik;
   font-weight: 300;
+  font-size: clamp(2rem, 2vw, 3rem);
 }
 
 a {
