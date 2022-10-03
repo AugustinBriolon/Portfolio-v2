@@ -19,10 +19,10 @@ export default function Nav() {
       </div>
       <ul className="navListLinks">
         <li className="navItem navBox">
-          <a href="/" className='navLinks'>Projets</a>
+          <a href="#project" className='navLinks'>Projets</a>
         </li>
         <li className="navItem navBox">
-          <a href="/" className='navLinks'>Contact</a>
+          <a href="#contact" className='navLinks'>Contact</a>
         </li>
       </ul>
       <button className='navBurger' onClick={hangleShowLinks}>

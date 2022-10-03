@@ -1,3 +1,4 @@
+import React from 'react'
 import './App.css';
 import './scss/styles.js';
 
@@ -12,8 +13,9 @@ import Line from './components/Line/Line';
 function App() {
   return (
     <div className="App">
+
       <Nav />
-      <Header />
+      <Header/>
       <Line />
       <Projects />
       <Line />

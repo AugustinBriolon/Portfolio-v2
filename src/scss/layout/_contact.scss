@@ -1,0 +1,31 @@
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @include media-min(768px) {
+    flex-direction: column;
+  }
+
+  .txt,
+  .c2a {
+    width: 50%;
+
+    @include media-min(768px) {
+      width: 100%;
+      text-align: center !important;
+    }
+  }
+
+  .txt {
+    text-align: left;
+  }
+
+  .c2a {
+    text-align: right;
+
+    @include media-min(768px) {
+      margin-top: 2rem;
+    }
+  }
+}

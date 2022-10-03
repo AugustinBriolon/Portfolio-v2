@@ -8,3 +8,9 @@
         &{ @content; }
     }
 }
+
+@mixin media-max($_max-width) {
+    @media screen and (min-width: $_max-width) {
+        &{ @content; }
+    }
+}

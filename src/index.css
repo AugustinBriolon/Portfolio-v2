@@ -1,5 +1,5 @@
 .section {
   max-width: 1920px !important;
   margin: 0 auto;
-  padding: 30px clamp(20px,5vw,130px);
+  padding: 80px clamp(20px,5vw,130px);
 }

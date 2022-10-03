@@ -1,0 +1,20 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @include media-min(768px) {
+    flex-direction: column;
+  }
+  a {
+    margin: 0 15px;
+
+    &:nth-child(1) {
+      margin-left: 0;
+    }
+  }
+
+  .footerTxt {
+    margin-top: 15px;
+  }
+}

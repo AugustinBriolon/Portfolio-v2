@@ -14,11 +14,8 @@ export default function Header() {
       <div className="content">
 
         <div className='text'>
-          <p>Développeur Web par passion, j’aime apprendre, <br /> créer et coder. Minimalite sur les bords...</p>
-          <a href="/" className='button'>
-            Contact
-            <span class="bg"></span>
-            </a>
+          <p>Développeur Web par passion, j’aime apprendre, <br /> créer et coder. Minimaliste sur les bords...</p>
+          <a href="mailto:briolon@august1.dev" className='button'>Contact</a>
         </div>
 
         <div className='imgMe'>
