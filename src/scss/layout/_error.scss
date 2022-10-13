@@ -1,0 +1,15 @@
+.erroSection {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  
+
+  img {
+    width: 100%;
+    width: clamp(400px, 500px, 700px);
+    max-height: 350px;
+  }
+}

@@ -41,7 +41,12 @@ export default function Projects() {
   return (
     <div className='section projectSection' id='project'>
 
-      <h2 className='titleProject'>Projets</h2>
+      <div>
+
+        <h2 className='titleProject'>Projets</h2>
+        
+      </div>
+
 
       <div className="projectsContainer">
 
