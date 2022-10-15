@@ -7,9 +7,12 @@
     flex-direction: column;
   }
 
+  .txt {
+    width: 50%;
+  }
+
   .txt,
   .c2a {
-    width: 50%;
 
     @include media-min(768px) {
       width: 100%;

@@ -6,10 +6,11 @@ import { ScrollToPlugin } from 'gsap/ScrollToPlugin'
 import ImgMe from '../../assets/img/profilImg.png'
 
 gsap.registerPlugin(ScrollTrigger, ScrollToPlugin)
+document.querySelectorAll('.button').forEach(button => button.innerHTML = '<div><span>' + button.textContent.trim().split('').join('</span><span>') + '</span></div>');
 
 export default function Header() {
 
-  const slideInTop = (elem, delay, duration) => {
+  const slideInTop = (elem) => {
     gsap.fromTo(elem, {
       y: 20,
       opacity: 0
@@ -29,6 +30,8 @@ export default function Header() {
   useEffect(() => {
     slideInTop('.text1')
   }, [])
+
+
 
   return (
     <div className='section header'>
