@@ -1,5 +1,9 @@
 .header {
   padding-top: 80px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
   @include media-min(768px) {
     display: flex;
@@ -45,7 +49,6 @@
     }
 
     h2 {
-
       text-align: right;
       grid-column: 3 / 3;
       grid-row: 2 / 2;
@@ -54,7 +57,6 @@
       justify-content: flex-end;
 
       @include media-min(768px) {
-        font-size: 3rem;
         margin-top: 20px;
         grid-column: 1 / 1;
         grid-row: 3 / 3;
@@ -69,6 +71,7 @@
     justify-content: space-between;
     align-items: center;
     height: clamp(200px, 40vh, 400px);
+    margin-top: 50px;
 
     .text {
       height: 100%;
@@ -90,6 +93,7 @@
       img {
         height: clamp(200px, 40vh, 400px);
         width: auto;
+        opacity: 0.9;
       }
     }
   }

@@ -76,11 +76,21 @@
 
       p {
         margin: 10px auto;
+        vertical-align: auto;
+
+        .linkDescription {
+          text-decoration: underline;
+        }
+      }
+
+      .projectLink {
+        display: flex;
+        align-items: center;
       }
 
       a {
-        display: flex;
-        align-items: center;
+        vertical-align: middle;
+        font-weight: bold;
 
         &:hover {
           .arrow {
@@ -92,9 +102,9 @@
         .arrow {
           display: inline-block;
           cursor: pointer;
-          width: 43px;
-          height: 43px;
-          background: center no-repeat url("../../assets/logo/arrow.svg");
+          width: 16px;
+          height: 16px;
+          background: url("../../assets/logo/arrow.svg") no-repeat center;
           transition: all 0.3s ease-in-out;
         }
       }
@@ -102,9 +112,15 @@
 
     .projectImg {
 
-
       img {
         width: clamp(300px, 30vw, 500px);
+        opacity: 0.6;
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+          opacity: 1;
+          transition: all 0.3s ease-in-out;
+        }
       }
     }
   }

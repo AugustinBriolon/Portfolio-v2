@@ -1,14 +1,42 @@
 import React from 'react'
+import { useEffect } from 'react'
+import { gsap } from 'gsap'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { ScrollToPlugin } from 'gsap/ScrollToPlugin'
 import ImgMe from '../../assets/img/profilImg.png'
 
+gsap.registerPlugin(ScrollTrigger, ScrollToPlugin)
+
 export default function Header() {
+
+  const slideInTop = (elem, delay, duration) => {
+    gsap.fromTo(elem, {
+      y: 20,
+      opacity: 0
+    }, {
+      y: 0,
+      opacity: 1,
+      delay: 0.2,
+      duration: 0.5,
+      ease: "Power1".easeInOut,
+      scrollTrigger: {
+        trigger: elem,
+        start: 'top center',
+        end: 'bottom center',
+      }
+    })
+  }
+  useEffect(() => {
+    slideInTop('.text1')
+  }, [])
+
   return (
     <div className='section header'>
 
       <div className="title">
-        <h1>Développeur</h1>
-        <h1>Web</h1>
-        <h2>Augustin Briolon</h2>
+        <h1 className='text1'>Développeur</h1>
+        <h1 className='text1'>Web</h1>
+        <h2 className='text1'>Augustin Briolon</h2>
       </div>
 
       <div className="content">
