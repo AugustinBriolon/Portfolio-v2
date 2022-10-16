@@ -6,7 +6,12 @@ import { ScrollToPlugin } from 'gsap/ScrollToPlugin'
 import ImgMe from '../../assets/img/profilImg.png'
 
 gsap.registerPlugin(ScrollTrigger, ScrollToPlugin)
-document.querySelectorAll('.button').forEach(button => button.innerHTML = '<div><span>' + button.textContent.trim().split('').join('</span><span>') + '</span></div>');
+
+
+window.addEventListener('load', (event) => {
+  document.querySelectorAll('.button').forEach(button => button.innerHTML = '<div><span>' + button.textContent.trim().split('').join('</span><span>') + '</span></div>');
+  console.log(document.querySelectorAll('.button'))
+});
 
 export default function Header() {
 
