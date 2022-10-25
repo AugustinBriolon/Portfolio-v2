@@ -51,7 +51,7 @@ export default function Projects() {
         <div className="project project1">
           <div className="projectTxt">
             <div>
-              <h4>zLawyer</h4>
+              <h3>zLawyer</h3>
               <hr />
             </div>
             <p>zLawyer est un logiciel de gestion de <br /> cabinets d'avocats. (réalisé avec <a href="https://matteo.courqu.in/" className='linkDescription' target={'_blank'} rel="noreferrer">Matteo Courquin</a>)</p>
@@ -70,7 +70,7 @@ export default function Projects() {
 
         <div className="project project2">
           <div className="projectTxt">
-            <h4>Semicolon</h4>
+            <h3>Semicolon</h3>
             <hr />
             <p>Projet d'études visant à sensibiliser sur les problématiques étudiantes.</p>
 
@@ -87,7 +87,7 @@ export default function Projects() {
 
         <div className="project project3">
           <div className="projectTxt">
-            <h4>raredream</h4>
+            <h3>raredream</h3>
             <hr />
             <p>Inspiré d’une maquette, ce site n’est que vitrine. Vous ne pourrez rien acheté... </p>
 

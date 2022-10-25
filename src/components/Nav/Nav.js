@@ -12,7 +12,7 @@ export default function Nav() {
   return (
     <nav className={`${showLinks ? "showNav" : "hidden"} navbar`}>
       <div className="navBox">
-        <a href="/">
+        <a href="/" className='logoAB' aria-label="Logo Principal AB">
           <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="100%" height="65" viewBox="0 0 200.000000 156.000000" preserveAspectRatio="xMidYMid meet">
             <g transform="translate(0.000000,156.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
               <path d="M120 1492 l-115 -67 0 -645 0 -645 115 -67 c148 -87 200 -90 200 -12
@@ -61,7 +61,7 @@ export default function Nav() {
           <a href="#contact" className='navLinks'>Contact</a>
         </li>
       </ul>
-      <button className='navBurger' onClick={hangleShowLinks}>
+      <button className='navBurger' onClick={hangleShowLinks} aria-label="BurgerLogo">
         <span className='burgerBar'></span>
       </button>
     </nav>
