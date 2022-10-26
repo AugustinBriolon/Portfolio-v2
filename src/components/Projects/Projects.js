@@ -12,7 +12,7 @@ gsap.registerPlugin(ScrollTrigger, ScrollToPlugin)
 
 export default function Projects() {
 
-  const slideInTop = (elem, delay, duration) => {
+  const slideInTop = (elem) => {
     gsap.fromTo(elem, {
       y: -200,
       opacity: 0
@@ -101,6 +101,8 @@ export default function Projects() {
             <a href="https://raredream.august1.dev/" target="_blank" rel="noreferrer"><img src={raredream} alt="Raredream Home Page" /></a>
           </div>
         </div>
+
+        <a href="/projects" className='button btnProject'>Voir plus</a>
 
       </div>
 

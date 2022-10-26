@@ -1,0 +1,75 @@
+.item {
+  position: absolute;
+  min-width: 330px;
+  height: fit-content;
+  text-align: center;
+  color: $color-primary;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+
+  @media screen and (min-width : 768px) {
+    min-width: 450px;
+  }
+
+  @media screen and (min-width : 930px) {
+    min-width: 600px;
+  }
+
+  img {
+    width: 100%;
+    border-radius: 10px;
+    opacity: 0.8;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  h2 {
+    padding: 10px 0;
+  }
+
+  p {
+    margin: 0 5px;
+  }
+
+  .btnContainer {
+    width: 150px;
+    text-align: center;
+    margin: 20px auto;
+
+    a {
+      div {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+}
+
+.projectPageSection {
+  overflow: hidden;
+}
+
+.css-1qzevvg {
+  position: absolute !important;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  @media screen and (min-width : 768px) {
+    display: none !important;
+  }
+}
+
+.css-1fzpoyk {
+  &:nth-child(1) {
+    left: 10% !important;
+  }
+  &:nth-child(3) {
+    left: 90% !important;
+  }
+}

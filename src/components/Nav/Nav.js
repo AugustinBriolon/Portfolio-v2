@@ -55,7 +55,7 @@ export default function Nav() {
       </div>
       <ul className="navListLinks">
         <li className="navItem navBox">
-          <a href="#project" className='navLinks'>Projets</a>
+          <a href="/projects" className='navLinks'>Projets</a>
         </li>
         <li className="navItem navBox">
           <a href="#contact" className='navLinks'>Contact</a>

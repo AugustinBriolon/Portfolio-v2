@@ -81,7 +81,6 @@ export default function Error() {
       <p > Revenez sur le site <Link to=".." relative="path">ici</Link> </p>
       <img src={images} alt="Not Found Template Visual" className='imgNotFound' />
 
-
     </div>
   )
 }

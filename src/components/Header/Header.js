@@ -10,7 +10,6 @@ gsap.registerPlugin(ScrollTrigger, ScrollToPlugin)
 
 window.addEventListener('load', (event) => {
   document.querySelectorAll('.button').forEach(button => button.innerHTML = '<div><span>' + button.textContent.trim().split('').join('</span><span>') + '</span></div>');
-  console.log(document.querySelectorAll('.button'))
 });
 
 export default function Header() {
