@@ -1,4 +1,3 @@
-import React from 'react'
 import { useEffect } from 'react'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
@@ -7,6 +6,7 @@ import zLawyer from '../../assets/img/zLawyer.webp'
 import semicolon from '../../assets/img/semicolon.webp'
 import raredream from '../../assets/img/raredream.webp'
 import arrow from '../../assets/logo/arrow.svg'
+
 
 gsap.registerPlugin(ScrollTrigger, ScrollToPlugin)
 
