@@ -1,44 +1,46 @@
-{"projects": [
-  {
+{
+  "projects": [
+    {
       "name": "zLawyer",
       "description": "zLawyer est un logiciel de gestion de cabinets d'avocats. (réalisé avec Matteo Courquin",
       "src": "/static/media/zLawyer.13e901cb850a82a02563.webp",
       "alt": "zLawyer Home Page",
       "link": "https://www.zlawyer.fr/logiciel-avocats/"
-  },
-  {
+    },
+    {
       "name": "Semicolon",
       "description": "Projet d'études visant à sensibiliser sur les problématiques étudiantes.",
       "src": "/static/media/semicolon.e7d7993c21835d4c7e0e.webp",
       "alt": "Semicolon Home Page",
       "link": "https://semicolon.vercel.app/"
-  },
-  {
+    },
+    {
       "name": "raredream",
       "description": "Inspiré d’une maquette, ce site n’est que vitrine. Vous ne pourrez rien acheté...",
       "src": "/static/media/raredream.e696cf4512f44985d7f0.webp",
       "alt": "raredream Home Page",
       "link": "https://raredream.august1.dev/"
-  },
-  {
+    },
+    {
       "name": "Old Portfolio",
       "description": "Mon ancien portfolio ",
       "src": "/static/media/portfolio.9a9c4366d9c831be5f46.webp",
       "alt": "Portfolio Home Page",
       "link": "https://portoflio.august1.dev/"
-  },
-  {
+    },
+    {
       "name": "VueQuizz",
       "description": "Quizz sur Vue pour commencer à apprendre Vue.",
       "src": "/static/media/vuelearn.9c520c0ec4e6a72da3d1.webp",
       "alt": "VueQuizz Home Page",
       "link": "https://vue.learn.august1.dev/"
-  },
-  {
+    },
+    {
       "name": "Todo List",
       "description": "ToDoList est un petit project personnel.",
       "src": "/static/media/todoList.63bb12866e1a4cd25e55.webp",
       "alt": "Todo List Home Page",
       "link": "https://todo.list.august1.dev/"
-  }
-]} 
+    }
+  ]
+}

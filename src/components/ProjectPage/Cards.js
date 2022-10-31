@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useSpring, animated } from "react-spring";
 import Button from "../Button/Button";
 
-function Cards({ image, alt, name, description }) {
+function Cards({ image, alt, name, description, link }) {
   const [show, setShown] = useState(false);
 
   const props3 = useSpring({
@@ -22,7 +22,7 @@ function Cards({ image, alt, name, description }) {
         {description}
       </p>
       <div className="btnContainer">
-        <Button link="https://www.zlawyer.fr/logiciel-avocats/" text="Project"/>
+        <Button link={link} text="Project"/>
       </div>
     </animated.div>
   );

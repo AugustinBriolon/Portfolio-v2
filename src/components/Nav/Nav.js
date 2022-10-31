@@ -58,7 +58,7 @@ export default function Nav() {
           <a href="/projects" className='navLinks'>Projets</a>
         </li>
         <li className="navItem navBox">
-          <a href="#contact" className='navLinks'>Contact</a>
+          <a href="/contact" className='navLinks'>Contact</a>
         </li>
       </ul>
       <button className='navBurger' onClick={hangleShowLinks} aria-label="BurgerLogo">

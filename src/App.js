@@ -1,8 +1,8 @@
-import React from "react";
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
 import HomePage from './pages/HomePage.js';
 import NotFound from "./pages/NotFound.js";
 import Projects from "./pages/ProjectPage.js";
+import Contact from "./pages/ContactPage.js";
 
 function App() {
 
@@ -16,6 +16,7 @@ function App() {
 
         <Route exact path='/' element={<HomePage />} />
         <Route path='/projects' element={<Projects />} />
+        <Route path='/contact' element={<Contact />} />
         <Route path='*' element={<NotFound />} />
 
       </Routes >

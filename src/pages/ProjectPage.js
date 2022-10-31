@@ -1,6 +1,3 @@
-import React from 'react'
-
-// Composants
 import Nav from '../components/Nav/Nav.js';
 import Projects from '../components/ProjectPage/ProjectPage.js';
 

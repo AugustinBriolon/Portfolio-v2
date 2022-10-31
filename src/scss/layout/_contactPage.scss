@@ -1,0 +1,14 @@
+.contactPage {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly
+}
+
+.mail {
+  text-decoration: underline;
+
+  h1 {
+    font-size: clamp(2.5rem, 9vw, 12rem);
+  }
+}

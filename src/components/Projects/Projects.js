@@ -2,6 +2,9 @@ import { useEffect } from 'react'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { ScrollToPlugin } from 'gsap/ScrollToPlugin'
+
+
+
 import zLawyer from '../../assets/img/zLawyer.webp'
 import semicolon from '../../assets/img/semicolon.webp'
 import raredream from '../../assets/img/raredream.webp'
@@ -10,22 +13,19 @@ import arrow from '../../assets/logo/arrow.svg'
 
 gsap.registerPlugin(ScrollTrigger, ScrollToPlugin)
 
+
 export default function Projects() {
 
   const slideInTop = (elem) => {
     gsap.fromTo(elem, {
-      y: -200,
-      opacity: 0
+      scale: 0,
     }, {
-      y: 0,
-      opacity: 1,
-      delay: 0.2,
-      duration: 0.8,
-      ease: "Power1".easeInOut,
+      scale: 1,
+      duration: 0.5,
       scrollTrigger: {
+        markers: true,
         trigger: elem,
-        start: 'top center',
-        end: 'bottom center',
+        start: 'top 80%'
       }
     })
   }
@@ -42,7 +42,7 @@ export default function Projects() {
       <div>
 
         <h2 className='titleProject'>Projets</h2>
-        
+
       </div>
 
 
