@@ -23,7 +23,6 @@ export default function Projects() {
       scale: 1,
       duration: 0.5,
       scrollTrigger: {
-        markers: true,
         trigger: elem,
         start: 'top 80%'
       }
