@@ -22,11 +22,8 @@
   img {
     width: 100%;
     border-radius: 10px;
-    opacity: 0.8;
-
-    &:hover {
-      opacity: 1;
-    }
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
   }
 
   h2 {
