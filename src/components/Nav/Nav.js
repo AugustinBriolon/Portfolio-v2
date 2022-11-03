@@ -56,10 +56,10 @@ export default function Nav() {
         </div>
         <ul className="navListLinks">
           <li className="navItem navBox">
-            <Link to="/projects" className='navLinks'>Projects</Link>
+            <Link to="/projects" className='navLinks' onClick={hangleShowLinks}>Projects</Link>
           </li>
           <li className="navItem navBox">
-            <Link to="/contact" className='navLinks'>Contact</Link>
+            <Link to="/contact" className='navLinks' onClick={hangleShowLinks}>Contact</Link>
           </li>
         </ul>
         <button className='navBurger' onClick={hangleShowLinks} aria-label="BurgerLogo">
