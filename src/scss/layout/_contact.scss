@@ -9,10 +9,6 @@
 
   .txt {
     width: 50%;
-  }
-
-  .txt,
-  .c2a {
 
     @include media-min(768px) {
       width: 100%;
@@ -25,7 +21,7 @@
   }
 
   .c2a {
-    text-align: right;
+    display: block;
 
     @include media-min(768px) {
       margin-top: 2rem;
