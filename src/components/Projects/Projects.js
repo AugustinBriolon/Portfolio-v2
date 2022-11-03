@@ -18,9 +18,9 @@ export default function Projects() {
 
   const slideInTop = (elem) => {
     gsap.fromTo(elem, {
-      scale: 0,
+      opacity: 0,
     }, {
-      scale: 1,
+      opacity: 1,
       duration: 0.5,
       scrollTrigger: {
         trigger: elem,

@@ -1,5 +1,4 @@
 import React from 'react'
-import '../scss/styles.js';
 
 // Composants
 import Nav from '../components/Nav/Nav.js';
