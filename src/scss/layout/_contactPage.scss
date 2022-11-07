@@ -1,10 +1,10 @@
 .contactPage {
-  height: 80vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
 
-  div {
+  .contactTitle {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -33,12 +33,10 @@
       border: none;
     }
   }
-  
-  .mail {
-    text-decoration: underline;
-    
-    h1 {
-      font-size: clamp(2.5rem, 9vw, 12rem);
-    }
+
+  .container-form {
+    display: flex;
+    justify-content: center;
   }
+  
 }
