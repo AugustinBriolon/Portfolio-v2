@@ -6,11 +6,6 @@ import MetaTags from 'react-meta-tags';
 const NotFound = () =>
   <div>
 
-    <MetaTags>
-      <meta name="robots" content="noindex" />
-      <meta name="googlebot" content="noindex" />
-    </MetaTags>
-
     <Nav />
     <Error />
 

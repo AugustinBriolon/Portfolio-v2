@@ -1,4 +1,5 @@
 User-agent: *
+Allow: /
 Disallow: /projects
 Disallow: /contact
 Sitemap: https://august1.dev/sitemap.xml
