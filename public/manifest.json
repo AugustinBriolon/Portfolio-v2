@@ -1,6 +1,6 @@
 {
+  "name": "Portfolio de Augustin Briolon",
   "short_name": "Augustin Briolon",
-  "name": "Portfolio Augustin Briolon",
   "icons": [
     {
       "src": "favicon.ico",
@@ -28,8 +28,11 @@
       "sizes": "150x150"
     }
   ],
-  "start_url": "https://august1.dev/",
-  "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#56ccf2"
+  "background_color": "#191919",
+  "display": "standalone",
+  "description": "Voici le portfolio de Augustin Briolon un Développeur Web Front-End depuis maintenant 3 ans. Sensible au design, j'ai hâte de travailler avec vous. Mon dicton : Apprendre tous les jours !",
+  "start_url": "https://august1.dev/",
+  "scope": "./",
+  "lang": "fr"
 }
