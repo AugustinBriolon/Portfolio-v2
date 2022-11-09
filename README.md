@@ -1,6 +1,6 @@
 # Portfolio-v2
 
-My new Portfolio made with React.
+My Portfolio make with React JS.
 
 
 ## Deployment

@@ -3,9 +3,19 @@
   "short_name": "Augustin Briolon",
   "icons": [
     {
-      "src": "favicon.ico",
-      "type": "image/x-icon",
-      "sizes": "32x32 16x16"
+      "src": "favicon/favicon-16x16.png",
+      "type": "image/png",
+      "sizes": " 16x16"
+    },
+    {
+      "src": "favicon/favicon-32x32.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "favicon/mstile-150x150.png",
+      "type": "image/png",
+      "sizes": "150x150"
     },
     {
       "src": "favicon/apple-touch-icon.png",
@@ -21,14 +31,9 @@
       "src": "favicon/android-chrome-512x512.png",
       "type": "image/png",
       "sizes": "512x512"
-    },
-    {
-      "src": "favicon/mstile-150x150.png",
-      "type": "image/png",
-      "sizes": "150x150"
     }
   ],
-  "theme_color": "#000000",
+  "theme_color": "#56ccf2",
   "background_color": "#191919",
   "display": "standalone",
   "description": "Voici le portfolio de Augustin Briolon un Développeur Web Front-End depuis maintenant 3 ans. Sensible au design, j'ai hâte de travailler avec vous. Mon dicton : Apprendre tous les jours !",
