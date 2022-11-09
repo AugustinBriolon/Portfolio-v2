@@ -62,7 +62,7 @@ export default function Projects() {
 
           </div>
           <div className="projectImg">
-            <a href="https://www.zlawyer.fr/logiciel-avocats/" target="_blank" rel="noreferrer"><img src={zLawyer} alt="zLawyer Home Page" /></a>
+            <a href="https://www.zlawyer.fr/logiciel-avocats/" target="_blank" rel="noreferrer"><img src={zLawyer} alt="Lien vers zLawyer Home Page" /></a>
           </div>
         </div>
 
@@ -80,7 +80,7 @@ export default function Projects() {
 
           </div>
           <div className="projectImg">
-            <a href="https://semicolon.vercel.app/index.html" target="_blank" rel="noreferrer"><img src={semicolon} alt="Semicolon Home Page" /></a>
+            <a href="https://semicolon.vercel.app/index.html" target="_blank" rel="noreferrer"><img src={semicolon} alt="Lien vers Semicolon Home Page" /></a>
           </div>
         </div>
 
@@ -97,7 +97,7 @@ export default function Projects() {
 
           </div>
           <div className="projectImg">
-            <a href="https://raredream.august1.dev/" target="_blank" rel="noreferrer"><img src={raredream} alt="Raredream Home Page" /></a>
+            <a href="https://raredream.august1.dev/" target="_blank" rel="noreferrer"><img src={raredream} alt="Lien vers Raredream Home Page" /></a>
           </div>
         </div>
 
