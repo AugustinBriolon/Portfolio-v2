@@ -1,5 +1,5 @@
-import React from 'react'
-import { useEffect } from 'react'
+import { Link } from "react-router-dom";
+import { useEffect, useState } from 'react'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { ScrollToPlugin } from 'gsap/ScrollToPlugin'
@@ -35,6 +35,11 @@ export default function Header() {
     slideInTop('.text1')
   }, [])
 
+  const [showLinks, setShowLinks] = useState(false)
+
+  const hangleShowLinks = () => {
+    setShowLinks(!showLinks)
+  }
 
 
   return (
@@ -50,7 +55,7 @@ export default function Header() {
 
         <div className='text'>
           <p>Développeur Web par passion, j’aime apprendre, <br /> créer et coder. Minimaliste sur les bords...</p>
-          <a href="mailto:briolon@august1.dev" className='button'>Contact</a>
+          <Link to="/contact" className='navLinks button' onClick={hangleShowLinks}>Contact</Link>
         </div>
 
         <div className='imgMe'>

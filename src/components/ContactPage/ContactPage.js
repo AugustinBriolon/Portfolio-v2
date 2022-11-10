@@ -4,8 +4,7 @@ export default function ContactPage() {
     <div className="contactPage section">
 
       <div className="contactTitle">
-        <h2>Pour commencer un nouveau project</h2>
-        <hr />
+        <h2>Besoin d'un développeur pour votre nouveau project ?</h2>
       </div>
 
       <div class="container-form">
