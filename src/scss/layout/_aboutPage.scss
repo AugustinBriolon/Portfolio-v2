@@ -1,0 +1,110 @@
+.aboutPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cvContainer {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  .cvRow {
+    display: flex;
+    width: 100%;
+
+    @include media-min(768px) {
+      flex-direction: column;
+    }
+
+    .cvLogo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 30%;
+      border: 1px solid $color-primary;
+      padding: 90px 0;
+
+      @include media-min(768px) {
+        width: 100%;
+        padding: 50px 0;
+      }
+    }
+
+    .cvVide {
+      width: 71%;
+      height: auto;
+      padding: 90px 45px;
+      border-style: solid solid solid none;
+      border-width: 1px;
+      border-color: $color-primary;
+
+      @include media-min(768px) { 
+        display: none;
+      }
+    }
+
+    .cvFormation {
+      width: 40%;
+      padding: 90px 45px;
+      border-style: none solid solid solid;
+      border-width: 1px;
+      border-color: $color-primary;
+
+      @include media-min(768px) {
+        width: 100%;
+      }
+    }
+    
+    .cvSkill {
+      width: 61%;
+      padding: 90px 45px;
+      border-style: none solid solid none;
+      border-width: 1px;
+      border-color: $color-primary;
+
+      @include media-min(768px) {
+        width: 100%;
+        border-style: none solid;
+      }
+    
+    }
+    .cvItem {
+      margin: 20px 0;
+    }
+    
+    .cvExperience, 
+    .cvHobby {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+
+      @include media-min(768px) {
+        width: 100%;
+      }
+    }
+
+    .cvExperience {
+      border-style: none solid solid solid;
+      border-width: 1px;
+      border-color: $color-primary;
+      padding: 90px 45px;
+
+      @include media-min(768px) {
+        border-style: solid;
+      }
+    }
+
+    .cvHobby {
+      border-style: none solid solid none;
+      border-width: 1px;
+      border-color: $color-primary;
+      padding: 90px 45px;
+
+      @include media-min(768px) {
+        border-style: none solid solid solid;
+      }
+    }
+  }
+}

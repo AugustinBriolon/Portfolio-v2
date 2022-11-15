@@ -1,20 +1,17 @@
+import About from '../components/AboutPage/AboutPage';
 import Nav from '../components/Nav/Nav.js';
-import Contact from '../components/ContactPage/ContactPage';
 import Line from '../components/Line/Line';
 import Footer from '../components/Footer/Footer';
 
-function ContactPage() {
-
+export default function AboutPage() {
   return (
     <div>
 
       <Nav />
-      <Contact />
+      <About />
       <Line />
       <Footer />
 
     </div>
-  );
+  )
 }
-
-export default ContactPage;

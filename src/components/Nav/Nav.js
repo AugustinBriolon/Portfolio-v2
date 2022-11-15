@@ -10,7 +10,7 @@ export default function Nav() {
   }
 
   return (
-    <div>
+    <>
       <nav className={`${showLinks ? "showNav" : "hidden"} navbar`}>
         <div className="navBox">
           <Link to="/" className='logoAB' aria-label="Logo Principal AB">
@@ -61,12 +61,15 @@ export default function Nav() {
           <li className="navItem navBox">
             <Link to="/contact" className='navLinks' onClick={hangleShowLinks}>Contact</Link>
           </li>
+          <li className="navItem navBox">
+            <Link to="/about" className='navLinks' onClick={hangleShowLinks}>About</Link>
+          </li>
         </ul>
         <button className='navBurger' onClick={hangleShowLinks} aria-label="BurgerLogo">
           <span className='burgerBar'></span>
         </button>
       </nav>
       <Outlet />
-    </div>
+    </>
   )
 }
