@@ -5,32 +5,38 @@
     {
       "src": "favicon/favicon-16x16.png",
       "type": "image/png",
-      "sizes": " 16x16"
+      "sizes": " 16x16",
+      "purpose": "maskable"
     },
     {
       "src": "favicon/favicon-32x32.png",
       "type": "image/png",
-      "sizes": "32x32"
+      "sizes": "32x32",
+      "purpose": "maskable"
     },
     {
       "src": "favicon/mstile-150x150.png",
       "type": "image/png",
-      "sizes": "150x150"
+      "sizes": "150x150",
+      "purpose": "maskable"
     },
     {
       "src": "favicon/apple-touch-icon.png",
       "type": "image/png",
-      "sizes": "180x180"
+      "sizes": "180x180",
+      "purpose": "maskable"
     },
     {
       "src": "favicon/android-chrome-192x192.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "192x192",
+      "purpose": "maskable"
     },
     {
       "src": "favicon/android-chrome-512x512.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "512x512",
+      "purpose": "maskable"
     }
   ],
   "theme_color": "#56ccf2",

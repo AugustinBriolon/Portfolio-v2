@@ -1,4 +1,5 @@
-import React from 'react'
+import { Link } from "react-router-dom";
+
 
 export default function Contact() {
   return (
@@ -9,7 +10,7 @@ export default function Contact() {
       </div>
 
       <div className="c2a">
-        <a href="mailto:briolon@august1.dev" className='button'>Contact</a>
+      <Link to="/contact" className='navLinks buttonPulse' >Contact</Link>
       </div>
     </div>
   )

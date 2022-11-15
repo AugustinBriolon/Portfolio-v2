@@ -1,6 +1,6 @@
 .button {
   padding: 16px 32px;
-
+  text-align: center;
   font-family: $fontRaleway;
   font-weight: 400;
   line-height: 16px;
@@ -12,31 +12,21 @@
   letter-spacing: 0.5px;
   background: transparent;
   color: $color-primary;
-  transition: transform 0.44s ease, box-shadow 0.44s ease;
+  width: fit-content;
+}
 
-  div {
-    display: flex;
-    overflow: hidden;
-    text-shadow: 0 16px 0 black;
-    span {
-      display: block;
-      backface-visibility: hidden;
-      font-style: normal;
-      transition: transform 0.44s ease;
-      transform: translateY(var(--m)) translateZ(0);
 
-      $i: 1;
-      @while $i < 12 {
-        &:nth-child(#{$i}) {
-          transition-delay: $i / 20 + s;
-        }
-        $i: $i + 1;
-      }
-    }
-  }
-  &:hover {
-    span {
-      --m: calc(16px * -1);
-    }
+.buttonPulse {
+  padding: 12px 24px;
+  background-color: $color-primary;
+  color: $color-secondary;
+  border-radius: 7px;
+  box-shadow: 0 0 0 0 rgb(0 0 0 / 50%);
+  animation: pulse 1.5s infinite cubic-bezier(0.66, 0, 0, 1);
+}
+
+@keyframes pulse {
+  to {
+      box-shadow: 0 0 0 30px rgba(0, 0, 0, 0);
   }
 }

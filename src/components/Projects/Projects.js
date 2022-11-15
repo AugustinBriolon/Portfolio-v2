@@ -1,4 +1,5 @@
 import { useEffect } from 'react'
+import { Link } from "react-router-dom";
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { ScrollToPlugin } from 'gsap/ScrollToPlugin'
@@ -57,7 +58,7 @@ export default function Projects() {
 
             <div className='projectLink'>
               <a href="https://www.zlawyer.fr/logiciel-avocats/" target="_blank" rel="noreferrer">Voir le projet</a>
-              <img src={arrow} alt="logo arrow" />
+              <img src={arrow} alt="logo arrow" className='arrow' />
             </div>
 
           </div>
@@ -75,7 +76,7 @@ export default function Projects() {
 
             <div className='projectLink'>
               <a href="https://semicolon.vercel.app/index.html" target="_blank" rel="noreferrer">Voir le projet</a>
-              <img src={arrow} alt="logo arrow" />
+              <img src={arrow} alt="logo arrow" className='arrow' />
             </div>
 
           </div>
@@ -92,7 +93,7 @@ export default function Projects() {
 
             <div className='projectLink'>
               <a href="https://raredream.august1.dev/" target="_blank" rel="noreferrer">Voir le projet</a>
-              <img src={arrow} alt="logo arrow" />
+              <img src={arrow} alt="logo arrow" className='arrow' />
             </div>
 
           </div>
@@ -101,7 +102,7 @@ export default function Projects() {
           </div>
         </div>
 
-        <a href="/projects" className='button btnProject'>Voir plus</a>
+        <Link to="/projects" className='button btnProject'>Voir plus</Link>
 
       </div>
 

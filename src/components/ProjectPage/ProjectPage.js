@@ -38,7 +38,7 @@ export default function ProjectPage() {
       <Carousel
         cards={projectList}
         height="80vh"
-        width="80vw"
+        width="50vw"
         margin="0 auto"
         offset={2}
         showArrows={true}

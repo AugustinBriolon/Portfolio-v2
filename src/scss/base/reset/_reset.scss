@@ -24,6 +24,16 @@ body {
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+::-moz-selection { /* Code for Firefox */
+  color: $color-secondary;
+  background: $color-primary;
+}
+
+::selection {
+  color: $color-secondary;
+  background: $color-primary;
+}
+
 html {
   font-size: 62.5%;
 }
