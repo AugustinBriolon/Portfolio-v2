@@ -34,15 +34,12 @@ export default function Header() {
   return (
     <div className='section header'>
 
-      <div className="title">
-        <h1 className='animGsap'>Développeur</h1>
-        <h1 className='animGsap'>Web</h1>
-      </div>
+      <h1 className='animGsap'>Augustin <br /> Briolon</h1>
 
       <div className="content">
 
-        <h2 className='animGsap'>Augustin Briolon</h2>
-        <p className="animGsap">Développeur Web par passion, j’aime apprendre, <br /> créer et coder. Minimaliste sur les bords...</p>
+        <h2 className='animGsap'>Développeur Web</h2>
+        <p className="animGsap">Je suis Augustin Briolon. Développeur Web par passion, j’aime apprendre, <br /> créer et coder. Minimaliste sur les bords...</p>
         <Link to="/contact" className='navLinks buttonPulse animGsap'>Contact</Link>
 
       </div>

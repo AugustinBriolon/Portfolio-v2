@@ -56,7 +56,7 @@ export default function Projects() {
               <h3>zLawyer</h3>
               <hr />
             </div>
-            <p>zLawyer est un logiciel de gestion de <br /> cabinets d'avocats. (réalisé avec <a href="https://matteo.courqu.in/" className='linkDescription' target={'_blank'} rel="noreferrer">Matteo Courquin</a>)</p>
+            <p>zLawyer est un logiciel de gestion de cabinets d'avocats. (réalisé avec <a href="https://matteo.courqu.in/" className='linkDescription' target={'_blank'} rel="noreferrer">Matteo Courquin</a>). Langage utilisé NuxtJS</p>
 
             <div className='projectLink'>
               <a href="https://www.zlawyer.fr/logiciel-avocats/" target="_blank" rel="noreferrer">Voir le projet</a>
@@ -74,7 +74,7 @@ export default function Projects() {
           <div className="projectTxt">
             <h3>Semicolon</h3>
             <hr />
-            <p>Projet d'études visant à sensibiliser sur les problématiques étudiantes.</p>
+            <p>Projet d'école visant à sensibiliser sur les problématiques étudiantes. Nous avons réalisé ce site avec Gsap</p>
 
             <div className='projectLink'>
               <a href="https://semicolon.vercel.app/index.html" target="_blank" rel="noreferrer">Voir le projet</a>
@@ -91,7 +91,7 @@ export default function Projects() {
           <div className="projectTxt">
             <h3>raredream</h3>
             <hr />
-            <p>Inspiré d’une maquette, ce site n’est que vitrine. Vous ne pourrez rien acheté... </p>
+            <p>Inspiré d’une maquette, ce site n’est que vitrine. Vous ne pourrez rien acheté...</p>
 
             <div className='projectLink'>
               <a href="https://raredream.august1.dev/" target="_blank" rel="noreferrer">Voir le projet</a>

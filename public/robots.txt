@@ -4,4 +4,3 @@ Disallow: /projects
 Disallow: /contact
 Disallow: /validation
 Disallow: /about
-Sitemap: https://august1.dev/sitemap.xml
