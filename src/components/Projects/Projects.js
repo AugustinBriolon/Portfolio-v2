@@ -74,7 +74,7 @@ export default function Projects() {
           <div className="projectTxt">
             <h3>Semicolon</h3>
             <hr />
-            <p>Projet d'école visant à sensibiliser sur les problématiques étudiantes. Nous avons réalisé ce site avec Gsap</p>
+            <p>Projet d'école visant à sensibiliser sur les problématiques étudiantes. Nous avons utilisé la librairie Gsap pour ce site.</p>
 
             <div className='projectLink'>
               <a href="https://semicolon.vercel.app/index.html" target="_blank" rel="noreferrer">Voir le projet</a>
@@ -84,23 +84,6 @@ export default function Projects() {
           </div>
           <div className="projectImg">
             <a href="https://semicolon.vercel.app/index.html" target="_blank" rel="noreferrer"><img src={semicolon} alt="Lien vers Semicolon Home Page" /></a>
-          </div>
-        </div>
-
-        <div className="project project3">
-          <div className="projectTxt">
-            <h3>raredream</h3>
-            <hr />
-            <p>Inspiré d’une maquette, ce site n’est que vitrine. Vous ne pourrez rien acheté...</p>
-
-            <div className='projectLink'>
-              <a href="https://raredream.august1.dev/" target="_blank" rel="noreferrer">Voir le projet</a>
-              <img src={arrow} alt="logo arrow" className='arrow' />
-            </div>
-
-          </div>
-          <div className="projectImg">
-            <a href="https://raredream.august1.dev/" target="_blank" rel="noreferrer"><img src={raredream} alt="Lien vers Raredream Home Page" /></a>
           </div>
         </div>
 

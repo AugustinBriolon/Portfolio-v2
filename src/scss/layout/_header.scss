@@ -1,6 +1,7 @@
 .header {
   padding-top: 80px;
   height: 100vh;
+  min-height: 600px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -64,25 +65,9 @@
     margin-top: 50px;
     text-align: left;
 
-    .text {
-      height: 100%;
-      display: flex;
-      justify-content: space-evenly;
+    p {
+      margin: 15px 0 35px 0;
     }
 
-    .imgMe {
-      max-height: 40vh;
-      width: auto;
-
-      @include media-min(768px) {
-        display: none;
-      }
-
-      img {
-        height: clamp(200px, 25vh, 350px);
-        width: auto;
-        opacity: 0.8;
-      }
-    }
   }
 }

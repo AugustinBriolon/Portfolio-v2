@@ -21,7 +21,7 @@ export default function Footer() {
 
         </a>
 
-        <a href="https://www.linkedin.com/in/augustin-briolon-16831a1bb/" target="_blank" rel="noreferrer" className='logoLinkedIn' aria-label="Image logo LinkedIn">
+        <a href="https://www.linkedin.com/in/augustin-briolon/" target="_blank" rel="noreferrer" className='logoLinkedIn' aria-label="Image logo LinkedIn">
 
           <UseAnimations animation={linkedin} size={40} strokeColor={'#191919'} fillColor={'#191919'} autoplay={true} loop={true} />
 

@@ -13,7 +13,7 @@ export default function Nav() {
     <>
       <nav className={`${showLinks ? "showNav" : "hidden"} navbar`}>
         <div className="navBox">
-          <Link to="/" className='logoAB' aria-label="Logo Principal AB">
+          <Link to="/" className='logoAB' aria-label="Logo Principal AB" title="HomePage">
             <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="100%" height="65" viewBox="0 0 200.000000 156.000000" preserveAspectRatio="xMidYMid meet">
               <g transform="translate(0.000000,156.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
                 <path d="M120 1492 l-115 -67 0 -645 0 -645 115 -67 c148 -87 200 -90 200 -12
