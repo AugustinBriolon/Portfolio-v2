@@ -7,9 +7,14 @@
   text-align: center;
   
 
-  img {
+  .imgNotFound {
     width: 100%;
     max-width: 400px;
     max-height: 350px;
+    margin: 10px 0;
+  }
+
+  .textMargin {
+    margin-top: 20px;
   }
 }

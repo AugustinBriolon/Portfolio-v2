@@ -1,5 +1,5 @@
-import React from 'react'
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom"
+import { useEffect, useState } from "react";
 import Img1 from '../../assets/img/notFound/1.svg'
 import Img2 from '../../assets/img/notFound/2.svg'
 import Img3 from '../../assets/img/notFound/3.svg'
@@ -73,13 +73,25 @@ const randomImage = [
 const images = randomImage[Math.floor(Math.random() * randomImage.length)];
 
 export default function Error() {
+
+  let navigate = useNavigate();
+  let [countdown, setCountdown] = useState(5);
+
+  useEffect(() => {
+    countdown > 0 && setTimeout(() => setCountdown(countdown - 1), 1000);
+      if (countdown === 0) {
+        navigate('/');
+      }
+  }, [countdown, navigate]);
+
   return (
     <div className='erroSection section'>
 
       <h1>404</h1>
       <p>" On ne force pas une curiosité, on l'éveille. " </p>
-      <p > Revenez sur le site <Link to=".." relative="path">ici</Link> </p>
       <img src={images} alt="Not Found Template Visual" className='imgNotFound' />
+      <Link to='/' className="button">Retour à l'accueil</Link>
+      <p className="textMargin">Redirection dans {countdown} secondes</p>
 
     </div>
   )
