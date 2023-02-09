@@ -2,10 +2,12 @@ import { v4 as uuidv4 } from "uuid";
 import Card from "./Cards";
 import Carousel from "./Caroussel";
 import Projects from "./projects.json";
+
 import portolfio from '../../assets/img/portfolio.webp'
 import vuelearn from '../../assets/img/vuelearn.webp'
 import todoList from '../../assets/img/todoList.webp'
-
+import raredream from '../../assets/img/raredream.webp'
+import toolbox from '../../assets/img/toolbox.webp'
 
 
 export default function ProjectPage() {

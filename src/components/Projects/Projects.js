@@ -4,11 +4,8 @@ import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { ScrollToPlugin } from 'gsap/ScrollToPlugin'
 
-
-
 import zLawyer from '../../assets/img/zLawyer.webp'
 import semicolon from '../../assets/img/semicolon.webp'
-import raredream from '../../assets/img/raredream.webp'
 import arrow from '../../assets/logo/arrow.svg'
 
 
@@ -35,7 +32,6 @@ export default function Projects() {
   useEffect(() => {
     slideInTop('.project1')
     slideInTop('.project2')
-    slideInTop('.project3')
   }, [])
 
   return (

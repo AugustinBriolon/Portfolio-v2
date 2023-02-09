@@ -1,8 +1,8 @@
-import { render } from "react-dom";
+import React from "react";
+import ReactDOM from "react-dom/client";
 import {
-  BrowserRouter,
-  Routes,
-  Route,
+  createBrowserRouter,
+  RouterProvider
 } from "react-router-dom";
 import './index.css';
 import './scss/styles.js';
@@ -16,20 +16,18 @@ import Validation from "./pages/ValidationPage.js";
 console.log('%cBienvenue aux Développeurs', 'font-weight: bold; font-size: 45px;color: rgb(47,128,237); text-shadow: 3px 3px 0 rgb(4,77,145) , 6px 6px 0 rgb(42,21,113)')
 console.log('%cVous pouvez voir le code source de ce site sur mon Github : https://github.com/AugustinBriolon/Portfolio-v2', 'font-size: 15px')
 
-const rootElement = document.getElementById("root");
-render(
-  <BrowserRouter>
-    <Routes>
+const router = createBrowserRouter([
+  { path: "/", element: <HomePage />, },
+  { path: "/projects", element: <Projects />, },
+  { path: "/contact", element: <Contact />, },
+  { path: "/about", element: <About />, },
+  { path: "/validation", element: <Validation />, },
+  { path: "*", element: <NotFound />, },
+]);
 
-      <Route exact path='/' element={<HomePage />} />
-      <Route exact path='/projects' element={<Projects />} />
-      <Route exact path='/contact' element={<Contact />} />
-      <Route exact path='/about' element={<About />} />
-      <Route exact path='/validation' element={<Validation />} />
-      <Route path='*' element={<NotFound />} />
 
-      
-    </Routes>
-  </BrowserRouter>,
-  rootElement
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
+    <RouterProvider router={router} />
+  </React.StrictMode>
 );
