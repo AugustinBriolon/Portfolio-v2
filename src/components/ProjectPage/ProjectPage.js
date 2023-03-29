@@ -8,6 +8,7 @@ import vuelearn from '../../assets/img/vuelearn.webp'
 import todoList from '../../assets/img/todoList.webp'
 import raredream from '../../assets/img/raredream.webp'
 import toolbox from '../../assets/img/toolbox.webp'
+import getmymeal from '../../assets/img/getmymeal.webp'
 
 
 export default function ProjectPage() {
